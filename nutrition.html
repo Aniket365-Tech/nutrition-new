@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cereal Nutrition Calculator</title>
+  <link rel="stylesheet" href="nutrition.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nutrition.html">Nutrition Calculator</a></li>
+      </ul>
+    </nav>
+    <h1>Cereal Nutrition Calculator</h1>
+    <p>Calculate the calories and nutrients based on your cereal choice.</p>
+  </header>
+
+  <main>
+    <section class="calculator">
+      <h2>Enter Your Cereal Name</h2>
+      <label>Food name:</label>
+      <input type="text" id="foodName" placeholder="Enter cereal name">
+
+      <button id="calculateButton">Calculate</button>
+
+      <div class="results">
+        <h3>Nutrition Facts</h3>
+        <p>Calories: <span id="calories">0</span></p>
+        <p>Protein: <span id="protein">0</span>g</p>
+        <p>Fiber: <span id="fiber">0</span>g</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Aniket Gajbhiye Cereal Nutrition Calculator. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+  <script src="nutrition.js"></script>
+</body>
+</html>
